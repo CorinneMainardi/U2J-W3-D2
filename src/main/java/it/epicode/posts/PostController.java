@@ -21,7 +21,7 @@ public class PostController {
         return postSvc.getAll();
     }
     @GetMapping ("/{id}")
-    public Post getById (@PathVariable Long id){
+    public Post getById (@PathVariable Long id) {
 
         return postSvc.getById(id);
     }
